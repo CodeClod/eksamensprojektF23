@@ -12,5 +12,4 @@ public interface AppointmentRepository extends JpaRepository<Appointment, Long> 
 
     List<Appointment> findAppointmentsByUserUsername(@NotBlank String username);
 
-
 }
